@@ -1,0 +1,454 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title> India ... </title> 
+     <style> 
+           
+         #circle { 
+             width: 96px; 
+             height: 96%; 
+             color: blue; 
+             border-radius: 50%; 
+             border: 2px solid blue; 
+             margin: auto; 
+         } 
+  
+         #flag { 
+             height: 100px; 
+             width: 500px; 
+             box-shadow: 5px 5px 10px burlywood; 
+         } 
+  
+         .wheel{ 
+             height: 43px; 
+             width: 43px; 
+             border: 1px solid  darkblue; 
+             border-radius: 50%; 
+             position: relative; 
+             margin: 0 auto; 
+         } 
+         .wheel .lines{ 
+             height: 100%; 
+             width: 1px; 
+             display: inline-block; 
+             position: absolute; 
+             left: 50%; 
+             background: darkblue; 
+         } 
+         /* child css of the inside circle */ 
+         .lines:nth-child(1){ 
+             transform: rotate(15deg); 
+         } 
+         .lines:nth-child(2){ 
+             transform: rotate(30deg); 
+         } 
+         .lines:nth-child(3){ 
+         transform: rotate(45deg); 
+       } 
+       .lines:nth-child(4){ 
+         transform: rotate(60deg); 
+       } 
+       .lines:nth-child(5){ 
+         transform: rotate(75deg); 
+       } 
+       .lines:nth-child(6){ 
+         transform: rotate(90deg); 
+       } 
+       .lines:nth-child(7){ 
+         transform: rotate(105deg); 
+       } 
+       .lines:nth-child(8){ 
+         transform: rotate(120deg); 
+       } 
+       .lines:nth-child(9){ 
+         transform: rotate(135deg); 
+       } 
+       .lines:nth-child(10){ 
+         transform: rotate(150deg); 
+       } 
+       .lines:nth-child(11){ 
+         transform: rotate(165deg); 
+       } 
+       .lines:nth-child(12){ 
+         transform: rotate(180deg); 
+       } 
+       .lines:nth-child(13){ 
+         transform: rotate(195deg); 
+       } 
+       .lines:nth-child(14){ 
+         transform: rotate(210deg); 
+       } 
+       .lines:nth-child(15){ 
+         transform: rotate(225deg); 
+       } 
+       .lines:nth-child(16){ 
+         transform: rotate(240deg); 
+       } 
+       .lines:nth-child(17){ 
+         transform: rotate(255deg); 
+       } 
+       .lines:nth-child(18){ 
+         transform: rotate(270deg); 
+       } 
+       .lines:nth-child(19){ 
+         transform: rotate(285deg); 
+       } 
+       .lines:nth-child(20){ 
+         transform: rotate(300deg); 
+       } 
+       .lines:nth-child(21){ 
+         transform: rotate(315deg); 
+       } 
+       .lines:nth-child(22){ 
+         transform: rotate(330deg); 
+       } 
+       .lines:nth-child(23){ 
+         transform: rotate(345deg); 
+       } 
+       .lines:nth-child(24){ 
+         transform: rotate(360deg); 
+       } 
+    /* here write the owner css */ 
+       #owner{ 
+         margin-top: -360px; 
+         text-align: center; 
+         font-weight: bold; 
+       } 
+    /* ANIMATION */ 
+    .wheel{ 
+         animation: wheel 5s linear infinite ; 
+       } 
+       @keyframes wheel{ 
+         0%{ 
+             transform: rotate(0deg); 
+         } 
+         100%{ 
+             transform: rotate(360deg); 
+         } 
+       }; 
+  
+       /* apply media quries css for flag  */ 
+       @media (min-width:300px) and (max-width:650px){ 
+  
+         #flag { 
+             height: 70px; 
+             width: 350px; 
+             box-shadow: 5px 5px 10px burlywood; 
+         } 
+  
+         #circle { 
+             width: 67px; 
+             height: 94%; 
+             color: blue; 
+             /* border-radius: 50%; */ 
+             border: 2px solid darkblue; 
+             margin: auto; 
+         } 
+       }; 
+  
+       /* second */ 
+  
+  
+                                 
+     </style> 
+ </head> 
+ <body> 
+   <marquee behavior="" direction="left " > 
+     <h1>I LOVE MY INDIA </h1> 
+   </marquee> 
+   <div id="india"> 
+ <div id="orange" id="flag"></div> 
+ <div id="white" id="flag"> 
+     <div id="circle" class="wheel"> 
+         <div id="center"></div> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+         <span class="lines"></span> 
+  
+     </div> 
+ </div> 
+ <div id="green" id="flag"></div> 
+ <div class="second"> 
+     <p class="text1"><h2>proud to be a indian</p> 
+     <p class="text2">Jai Hind!!!</p> 
+     <div class="flags-container"> 
+         <div class="flag-container-1"> 
+             <div class="flag"> 
+                 <div class="saffron"></div> 
+                 <div class="white"></div> 
+                 <div class="green"></div> 
+             </div> 
+         </div> 
+         <div class="flag-container-2"> 
+             <div class="flag"> 
+                 <div class="saffron"></div> 
+                 <div class="white"></div> 
+                 <div class="green"></div> 
+             </div> 
+         </div> 
+     </div>         
+ </div> 
+   </div> 
+   <div id="owner"> 
+     <h2> Nandish bc<br><code>SOFTWARE DEVELOPER</code></h2> 
+   </div> 
+ 
+ <center>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Expandable Image with Popup Message</title>
+ <style>
+
+ 
+ #image-container {
+ position: relative;
+ }
+ 
+ #image {
+ width: 200px;
+ height: 200px;
+ cursor: pointer;
+ }
+ 
+ #image img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
+ 
+ #message {
+ display: none;
+ position: absolute;
+ bottom: -30px;
+ left: 50%;
+ transform: translateX(-50%);
+ background-color: rgba(0, 0, 0, 0.7);
+ color: #fff;
+ padding: 10px;
+ border-radius: 5px;
+ }
+ 
+ #image-container.show-message #message {
+ display: block;
+ }
+ </style>
+ </head>
+ <body>
+ <div id="image-container">
+ <div id="image">
+ <img src="a.jpeg" alt="Expandable Image" onclick="showMessage()">
+ </div>
+ <div id="message">Be strong and innovative!</div>
+ </div>
+ <script>
+ function showMessage() {
+ const imageContainer = document.getElementById('image-container');
+ imageContainer.classList.toggle('show-message');
+ }
+ </script>
+ </body>
+ </html>
+ </center>
+  
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ 
+ <body><center><br><br><br><h1>HAPPY INDEPENDENCE TO ALL </h1>
+ <div class="wrapper">
+ <div class="stick"></div>
+ <div class="flag">
+ <div class="wave"></div>
+ <div class="top"></div>
+ <div class="middle">
+ <div class="wheel">
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ </div>
+ </div>
+ <div class="bottom"></div>
+ </div>
+ </div>
+ </body>
+ 
+ </html><style type="text/css">.wrapper {
+ display: flex;
+ }
+ 
+ .stick {
+ height: 450px;
+ width: 10px;
+ background: black;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ }
+ 
+ .flag {
+ width: 270px;
+ height: 180px;
+ box-shadow: 0px 0px 90px 1px #989;
+ background-color: transparent;
+ position: relative;
+ }
+ 
+ .top {
+ height: 60px;
+ background-color: #ff9933
+ }
+ 
+ .middle {
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .bottom {
+ height: 60px;
+ background-color: green
+ }
+ 
+ .wheel {
+ height: 43px;
+ width: 43px;
+ border: 1px solid darkblue;
+ border-radius: 45px;
+ position: relative;
+ margin: 0 auto;
+ animation-name: wheel;
+ animation-iteration-count: infinite;
+ animation-duration: 5s;
+ animation-timing-function: linear;
+ }
+ 
+ .wheel .line {
+ height: 100%;
+ width: 1px;
+ display: inline-block;
+ position: absolute;
+ left: 50%;
+ background: darkblue;
+ }
+ 
+ .line:nth-child(1) {
+ transform: rotate(15deg)
+ }
+ 
+ .line:nth-child(2) {
+ transform: rotate(30deg)
+ }
+ 
+ .line:nth-child(3) {
+ transform: rotate(45deg)
+ }
+ 
+ .line:nth-child(4) {
+ transform: rotate(60deg)
+ }
+ 
+ .line:nth-child(5) {
+ transform: rotate(75deg)
+ }
+ 
+ .line:nth-child(6) {
+ transform: rotate(90deg)
+ }
+ 
+ .line:nth-child(7) {
+ transform: rotate(105deg)
+ }
+ 
+ .line:nth-child(8) {
+ transform: rotate(120deg)
+ }
+ 
+ .line:nth-child(9) {
+ transform: rotate(135deg)
+ }
+ 
+ .line:nth-child(10) {
+ transform: rotate(150deg)
+ }
+ 
+ .line:nth-child(11) {
+ transform: rotate(165deg)
+ }
+ 
+ .line:nth-child(12) {
+ transform: rotate(180deg)
+ }
+ 
+ @keyframes wheel {
+ 0%{
+ transform: rotate(0deg);
+ }
+ 100%{
+ transform: rotate(360deg);
+ }
+ }
+ .wave{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ background-image: linear-gradient(
+ 128deg, rgba(89,72,21,0) 39%,
+ rgba(250,245,245,0.8474025974025974)
+ 46%, rgba(89,72,21,0) 53%);
+ animation-name: wavy;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ }
+ 
+ @keyframes wavy {
+ 0%{
+ background-position:
+ -400px 0px, -400px 0px,
+ -400px 0px,-400px 0px;
+ }
+ 100%{
+ background-position: 800px 0px,
+ 800px 0px, 800px 0px, 800px 0px;
+ }
+ }</style>
